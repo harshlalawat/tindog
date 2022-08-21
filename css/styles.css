@@ -1,0 +1,169 @@
+body{
+  font-family: 'Montserrat-normal', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+h2{
+  font-weight: 700;
+}
+
+h3{
+  padding: 0 auto;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{
+  padding-bottom: 3rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-items{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.3rem;
+}
+
+.download-button{
+  margin: 5% 3% 1.5% 0;
+  font-size: 1.5rem;
+}
+
+.iphone6{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 10%;
+}
+
+#features{
+  padding: 8% 15% 0%;
+  margin-bottom: 0;
+  background-color: #fff;
+  position: relative;
+  bottom: 10rem;
+}
+
+@media (max-width:1285px ) {
+  #features{
+    position: static;
+    bottom: 0;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 992px){
+  .iphone6{
+    position: relative;
+    transform: rotate(0);
+    margin-left: 0%;
+  }
+  #title{
+  }
+  #features{
+    bottom: 0rem;
+  }
+}
+
+.div-content{
+  font-weight: normal;
+}
+
+.heading-content{
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.text-content{
+  width: 60%;
+  margin: 0 auto 14% auto;
+  color: #8f8f8f;
+}
+
+.image-content{
+  width: 20%;
+  margin-bottom: 4%;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#testimonials-carousel{
+  padding: 7% 17%;
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+.pricing-heading{
+  font-size: 2rem;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 8% 15%;
+}
+
+#cta h3 {
+  margin: 0 auto;
+}
+
+.footer-div img{
+  width: 1.2rem;
+  margin: 1rem;
+}
+
+#footer{
+  padding: 7% 15% 4%;
+  background-color: #fff;
+}
+
+.footer-para{
+  color: #8f8f8f;
+}
